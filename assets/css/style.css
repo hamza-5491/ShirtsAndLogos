@@ -1,0 +1,508 @@
+a:hover {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+/* header */
+.header {
+    background-color: #3498DB;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header ul li {
+    margin-left: 20px;
+}
+
+.header ul li i {
+    font-size: 15px;
+}
+
+.header ul li a {
+    color: #fff;
+}
+
+.header ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* nav */
+
+.nav {
+    /* height: 80px; */
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 15px 40px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.nav .navbar-brand {
+    width: 70%;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 30px;
+}
+
+.nav .search a {
+    background-color: #3498DB;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.nav .search a img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.nav .login a {
+    color: #000;
+}
+
+.nav .modal-content .close{
+    position: absolute; 
+    right: -150px;
+    top: 8px;
+}
+.nav .modal-content .close img{
+    width: 40px;
+
+}
+
+/* modal  */
+.modal-content {
+    background-color: #ffffff00;
+    border: none;
+}
+
+.modal-content input {
+    background-color: hsla(0, 0%, 100%, .2) !important;
+    border-color: hsla(0, 0%, 100%, .09);
+    width: 100%;
+    height: 45px;
+    padding: 0px 15px;
+    border-radius: 50px;
+}
+
+.modal-content input:active {
+    border: none;
+}
+
+.modal-content input::placeholder {
+    color: #fff;
+}
+
+.modal-content .search-img {
+    position: absolute;
+    right: 40px;
+    top: 13px;
+    width: 20px;
+}
+
+li {
+    cursor: pointer;
+}
+
+/* dropdown  */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown .dropdown-menu a {
+    color: #000;
+}
+
+/* Hero */
+
+.hero .slide-img .first-img {
+    background: url("../images/hero-img.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .slide-img .sec-img {
+    background: url("../images/hero-img-2.jpeg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+
+.hero .slide-img .sec-img .btn {
+    margin: 0px 0px 50px 50px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+}
+
+/* card img */
+.cards-img {
+    margin-bottom: 100px;
+}
+
+.cards-img .fet-txt {
+    margin: 100px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.cards-img .fet-txt::after {
+    content: '';
+    position: absolute;
+    width: 38%;
+    height: 1px;
+    background-color: #0000005b;
+    top: 20px;
+}
+
+.cards-img .fet-txt::before {
+    content: '';
+    position: absolute;
+    width: 38%;
+    height: 1px;
+    background-color: #0000005b;
+    top: 20px;
+    left: -12px;
+}
+
+.cards-img .item .caption {
+    padding: 10px 15px;
+}
+
+.cards-img .item .caption h3 {
+    font-size: 20px;
+    color: #000;
+}
+
+.cards-img .item .caption p {
+    color: green;
+    font-weight: bold;
+}
+
+.cards-img .picture2 {
+    display: none;
+}
+
+.cards-img .thumbnail:hover .picture1 {
+    display: none;
+}
+
+.cards-img .thumbnail:hover .picture2 {
+    display: block;
+}
+
+.cards-img .item {
+    transition: all 0.5s;
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.75);
+}
+
+.cards-img .item:hover {
+    box-shadow: 0px 0px 0px -2px rgba(0, 0, 0, 0.75);
+    border: 1px solid #000;
+}
+
+/* team-gear */
+.team-gear {
+    background-color: #3498DB;
+    padding-bottom: 65px;
+}
+
+.team-gear h1 {
+    color: #fff;
+    position: relative;
+    margin: 60px 0px;
+}
+
+.team-gear h1::after {
+    content: '';
+    position: absolute;
+    width: 42%;
+    height: 1px;
+    background-color: #ffffff5b;
+    top: 25px;
+}
+
+.team-gear h1::before {
+    content: '';
+    position: absolute;
+    width: 42%;
+    height: 1px;
+    background-color: #ffffff5b;
+    top: 25px;
+    left: -12px;
+}
+
+.team-gear .thumbnail {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 292px;
+    background-color: #333333;
+    overflow: hidden;
+
+}
+
+.team-gear .thumbnail img {
+    transition: all 0.5s;
+}
+
+.team-gear .thumbnail img:hover {
+    transform: scale(1.2);
+}
+
+/* Reviews */
+.review {
+    margin: 100px 0px;
+}
+
+.review p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.review a {
+    font-size: 16px;
+}
+
+/* social */
+.social {
+    background-color: #3498DB;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.social h1 {
+    padding: 60px 0px;
+}
+
+.social .icons img {
+    width: 30px;
+
+}
+
+.social .icons .facebook {
+    background-color: #2E467E;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.social .icons .insta {
+    background-color: #2F5476;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.social .icons .mail {
+    background-color: #0E0E0E;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+/* footer */
+.foter .icons div {}
+
+.foter .icons img {
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 40px;
+    border: 2px solid hsla(0, 0%, 100%, .5);
+}
+
+.copy-right {
+    background-color: #3498DB;
+}
+
+
+/* contact page */
+.contact .contact-text {
+    background-color: #3498DB;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.contact .contact-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.contact .contact-text p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact form {
+    background-color: #EDEDED;
+    padding: 20px;
+}
+
+.contact .map ul li {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* tshirt page */
+.tshirt .color-box {
+    width: 20px;
+    height: 20px;
+    border: 0.5px solid #000;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.tshirt .color-box:hover {
+    border-radius: 40px;
+}
+
+.tshirt .card .card-header i {
+    position: absolute;
+    right: 25px;
+    top: 22px;
+}
+
+.tshirt .card-header {
+    background-color: #3498DB;
+}
+
+.tshirt .card-header .btn {
+    color: #fff;
+    font-weight: bold;
+}
+
+.tshirt .card-header .btn:hover {
+    text-decoration: none;
+}
+
+.tshirt .heading {
+    background-color: #3498DB;
+    color: #fff;
+}
+
+/* faq page */
+.faq .faq-row{
+    background-color: #3498DB;
+    color: #fff;
+}
+.faq .faq-row h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+.faq .faq-row p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.faq .quest h2{
+    color: #454343;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.faq .quest h2,p{
+    margin-top: 15px;
+}
+/* login page */
+
+.account .heading {
+    background-color: #F7F7F7;
+}
+.account .heading h3{
+    font-weight: bold;
+}
+.account label{
+    font-weight: bold;
+}
+.account input{
+    border-radius: 0;
+}
+.account .btn{
+    padding: 8px 30px;
+    border-radius: 0;
+}
+.account span{
+    color: red;
+}
+
+
+/* custom baseball page */
+.custom .heading {
+    background-color: #3498DB;
+    color: #fff;
+}
+.custom .card h5{
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+}
+.custom .card p{
+    color: green;
+}
+
+@media (max-width:900px) {
+    .nav .navbar-brand {
+        width: 100%;
+    }
+
+    .cards-img .fet-txt::before,
+    .cards-img .fet-txt::after,
+    .team-gear h1::after,
+    .team-gear h1::before {
+        display: none;
+    }
+
+    .review {
+        margin: 10px 0px;
+    }
+
+    .nav ul li {
+        margin-left: 0px;
+    }
+
+}
+
+
+/* move up button css */
+
+.back-to-top .card-shadow {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    color: #000;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid #000;
+}
+
+#btn-back-to-top {
+    z-index: 11222;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: none;
+}
